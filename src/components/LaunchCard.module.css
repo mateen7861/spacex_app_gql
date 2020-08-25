@@ -1,0 +1,17 @@
+.main {
+  background-color: #1f1f1f;
+  width: 80vw;
+  margin-left: 10vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.main > h1 {
+  margin-bottom: 1rem;
+}
+.main > p {
+  margin-bottom: 1rem;
+}
+.detailsBtn {
+  text-transform: capitalize !important;
+}

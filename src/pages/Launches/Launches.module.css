@@ -1,0 +1,37 @@
+.root {
+  background-color: black;
+  width: 100vw;
+
+  padding: 80px 0px;
+  color: white;
+}
+.headingContainer {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+
+  border-bottom: 1px solid white;
+}
+.sfContainer {
+  display: flex;
+}
+.sfMain {
+  width: 80vw;
+  margin-left: 10vw;
+  padding: 1rem;
+}
+.succesBlock {
+  width: 2.5rem;
+  height: 1.3rem;
+  background-color: green;
+}
+.failBlock {
+  width: 2.5rem;
+  height: 1.3rem;
+  background-color: red;
+}
