@@ -16,8 +16,8 @@ export const MenuItems: menuItems[] = [
     title: "About",
     url: "about",
   },
-  {
-    title: "Contact Us",
-    url: "contact",
-  },
+  // {
+  //   title: "Contact Us",
+  //   url: "contact",
+  // },
 ];

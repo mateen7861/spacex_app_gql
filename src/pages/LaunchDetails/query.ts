@@ -5,13 +5,14 @@ export const QUERY_LAUNCH_DETAIL = gql`
     launch(id: $id) {
       flight_number
       mission_name
-      launch_year
+      launch_date_local
       launch_success
       details
       launch_site {
         site_name
       }
       rocket {
+        rocket_id
         rocket_name
         rocket_type
       }

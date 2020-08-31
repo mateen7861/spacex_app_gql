@@ -70,7 +70,7 @@ const useStyles = makeStyles((theme: Theme) =>
       display: "flex",
       flexDirection: "column",
       justifyContent: "space-around",
-      flex: 0.8,
+      flex: 0.5,
     },
     activeLink: {
       borderBottom: "2px solid white",
@@ -80,8 +80,8 @@ const useStyles = makeStyles((theme: Theme) =>
 
 export default function ButtonAppBar() {
   const classes = useStyles();
-  const [open, setOpen] = useState(false);
-  const [nScroll, setNscroll] = useState(false);
+  const [open, setOpen] = useState<boolean>(false);
+  const [nScroll, setNscroll] = useState<boolean>(false);
   const changBackground = () => {
     if (window.scrollY > 80) {
       setNscroll(true);

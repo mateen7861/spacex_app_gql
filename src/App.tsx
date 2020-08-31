@@ -4,7 +4,6 @@ import "./App.css";
 import Home from "./pages/Home";
 import Launches from "./pages/Launches";
 import LaunchDetails from "./pages/LaunchDetails";
-import Contact from "./pages/Contact";
 import About from "./pages/About";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -18,7 +17,6 @@ const App = () => {
           <Route path="/launches" element={<Launches />} />
           <Route path="/launches/:id" element={<LaunchDetails />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

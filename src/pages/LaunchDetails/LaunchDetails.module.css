@@ -5,8 +5,29 @@
   color: white;
 }
 .heading {
-  margin-top: 3rem;
+  margin-top: 3rem 1rem 0rem 1rem;
   border-bottom: 2px solid white;
   padding: 0.5rem;
   font-size: 3rem;
+}
+.dheading {
+  margin: 2rem 10vw 0rem 10vw;
+}
+.dimg {
+  width: 80vw;
+  object-fit: contain;
+  margin: 2rem 10vw 0rem 10vw;
+}
+@media screen and (max-width: 768px) {
+  .dheading {
+    margin: 2rem 5vw 0rem 5vw;
+  }
+  .heading {
+    margin-top: 0rem;
+  }
+  .dimg {
+    width: 90vw;
+    object-fit: contain;
+    margin: 2rem 5vw 0rem 5vw;
+  }
 }

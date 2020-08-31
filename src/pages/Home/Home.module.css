@@ -1,7 +1,8 @@
 .root {
-  background-image: url("../components/mars_astronaut_hd.jpg");
-  background-position: center;
+  background-image: url("../../components/mars.jpg");
+  background-position: top;
   background-size: cover;
+
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
@@ -11,14 +12,15 @@
   color: #fff;
   margin-top: 2rem;
   padding: 1rem 2rem;
-  font-size: 3rem;
+  font-size: 5rem;
+  font-style: bold;
 }
 .intro {
   color: #fff;
   max-width: 60vw;
   padding: 0rem 2rem;
-  font-size: 1.2rem;
-  line-height: 1.6rem;
+  font-size: 1.7rem;
+  font-style: italic;
 }
 
 h4 {
@@ -27,13 +29,15 @@ h4 {
   padding: 1rem 2rem;
 }
 .expBtn {
-  border: 2px solid white;
+  border: 3px solid white;
   background-color: transparent;
-  width: 17rem;
-  height: 3.7rem;
+  padding: 0rem 2rem;
+  width: auto;
+  height: 4rem;
   font-size: 1.6rem;
   margin: 2rem 2rem;
   color: #fff;
+  font-style: italic;
   transition: all linear 500ms;
   border-radius: 0.7rem;
 }
@@ -45,19 +49,44 @@ h4 {
   .intro {
     max-width: 100vw;
     padding: 0rem 1rem;
+    font-size: 1.4rem;
+  }
+  .heading {
+    margin-top: 0rem;
+    padding: 1rem 1rem;
+    font-size: 3.5rem;
+  }
+  .expBtn {
+    border: 2px solid white;
+    background-color: transparent;
+
+    height: 3.7rem;
+    font-size: 1.6rem;
+    margin: 1rem 1rem;
+    color: #fff;
+  }
+
+  h4 {
+    padding: 0rem 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 100vw;
+    padding: 0rem 1rem;
     font-size: 1.2rem;
   }
   .heading {
     margin-top: 0rem;
     padding: 1rem 1rem;
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
   .expBtn {
     border: 2px solid white;
     background-color: transparent;
-    width: 15rem;
+
     height: 3.7rem;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin: 1rem 1rem;
     color: #fff;
   }

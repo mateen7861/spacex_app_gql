@@ -35,3 +35,9 @@
   height: 1.3rem;
   background-color: red;
 }
+@media screen and (max-width: 768px) {
+  .sfMain {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+}

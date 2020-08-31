@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className={styles.root}>
-      <h1 className={styles.heading}>Welcome to SpaceX</h1>
+      <h1 className={styles.heading}>
+        Welcome to <span>SpaceX</span>
+      </h1>
       <p className={styles.intro}>
         “You want to wake up in the morning and think the future is going to be
         great - and that’s what being a spacefaring civilization is all about.
